@@ -9,7 +9,7 @@ const pool = new Pool({
 })
 const getArticles = (request, response) => {
     response.header("Access-Control-Allow-Origin", "*");
-    pool.query('SELECT * FROM public.users ORDER BY id ASC', (error, results) => {
+    pool.query('SELECT * FROM public.articles ORDER BY id ASC', (error, results) => {
     if (error) {
       throw error
     }
@@ -20,7 +20,7 @@ const getArticles = (request, response) => {
 const getArticleById = (request, response) => {
   const id = parseInt(request.params.id)
     response.header("Access-Control-Allow-Origin", "*");
-    pool.query('SELECT * FROM public.users WHERE id = $1', [id], (error, results) => {
+    pool.query('SELECT * FROM public.articles WHERE id = $1', [id], (error, results) => {
     if (error) {
       throw error
     }
@@ -35,6 +35,6 @@ const getArticleById = (request, response) => {
 
 
 module.exports = {
-  getUsers,
-  getUserById  
+  getGoods,
+  getGoodById  
 }
