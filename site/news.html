@@ -1,0 +1,57 @@
+<style type="text/css">
+    body {margin:0;background-color:#FFFFFF;
+    scrollbar-base-color:#FFFFFF;scrollbar-arrow-color:#707070;scrollbar-face-color:#FFFFFF;
+    scrollbar-track-color:#FFFFFF;scrollbar-highlight-color:#FFFFFF;scrollbar-shadow-color:#707070;
+    scrollbar-darkshadow-color:#FFFFFF}
+    body,table{color:#000000;font-family:Verdana;font-size:8pt;cursor:pointer;}
+    </style>
+    </head>
+    <body leftmargin=0 topmargin=0 style=overflow-x:hidden>
+    <script type="text/javascript">
+    var stp=0,alt=1,c1=0,c2=-1,dir=1;
+    function sw(){
+      if(!stp)
+        {alt=alt?0:1;
+         var st=document.body.scrollTop;
+         if(alt)c2=st;
+         else c1=st;
+         if(c1!=c2)scrollBy(0,dir);
+         else {if(dir==1)dir=-1;else dir=1;c1=0;c2=-1}
+    }
+    setTimeout("sw()",65)}
+    
+    // смена фона у ячейки над которой курсор
+    function lt(t,d){t.style.background=d?"#C4DF9B":"#EEEEEE";}
+    
+    setTimeout("sw()",1000);
+    </script>
+    
+    <table bgcolor=#FFFFFF cellpadding=0 cellspacing=1 width=179 onmouseover=stp=1 onmouseout=stp=0 onclick='parent.location="http://VseTaksi.ru"'>
+    <tr bgcolor=#EEEEEE height=30>
+    <th>Гарячі новини</th>
+    </tr>
+    <tr bgcolor=#EEEEEE onmouseover=lt(this,1) onmouseout=lt(this,0)><td>
+    <center><b>04.12.2020</b></center>Facebook та Instagram будуть видаляти фейки про вакцини від COVID-19</b></td>
+    </tr>
+    <tr bgcolor=#EEEEEE onmouseover=lt(this,1) onmouseout=lt(this,0)><td>
+        <center><b>07.12.2020</b></center>SpaceX відправила до МКС оновлену вантажну версію корабля Dragon</b></td>
+    </tr>
+    <tr bgcolor=#EEEEEE onmouseover=lt(this,1) onmouseout=lt(this,0)><td>
+        <center><b>02.12.2020</b></center>На Apple подали до суду через уповільнення роботи смартфонів</b></td>
+    </tr>
+    <tr bgcolor=#EEEEEE onmouseover=lt(this,1) onmouseout=lt(this,0)><td>
+        <center><b>30.11.2020</b></center>Мільйон гривень пропонують хакерам, які зможуть зламати застосунок «Дія»</b></td>
+    </tr>
+    <tr bgcolor=#EEEEEE onmouseover=lt(this,1) onmouseout=lt(this,0)><td>
+        <center><b>09.12.2020</b></center>Змії проти Маска: через плазунів під Берліном призупинили будівництво гігантського заводу Tesla</b></td>
+    </tr>
+    <tr bgcolor=#EEEEEE onmouseover=lt(this,1) onmouseout=lt(this,0)><td>
+        <center><b>09.12.2020</b></center>Huawei хочуть вигнати з найбільшої країни Латинської Америки</b></td>
+    </tr>
+    <tr bgcolor=#EEEEEE onmouseover=lt(this,1) onmouseout=lt(this,0)><td>
+        <center><b>09.12.2020</b></center>Google відкрила доступ до операційної системи Fuchsia</b></td>
+    </tr>
+
+
+    
+    </table>

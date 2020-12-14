@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to right, #4047D7, #744bc7);
+}
+
+.all {
+    width: 100%;
+    margin-top: 4.5%;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    background: linear-gradient(to right, #4047D7, #744bc7);
+    text-align: center;
+    top: 0%; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.top>a {
+    font-size: 200%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.top>a:hover {
+    color: rgb(54, 54, 54);
+    -moz-text-shadow:0 0 10px black; 
+    -webkit-text-shadow:0 0 10px black; 
+    text-shadow:0 0 10px black;
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../imgpages/imgp6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 600px;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    height: 310px;
+}
+.info {
+    background-color: #FCF8E3;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    margin-right: 2%;
+    
+}
+
+.info1 {
+    
+    width: 30%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-color: #1C1D1E;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.info1>a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25%;
+    font-size: 200%;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+}
+
+.title>p {
+    text-align: center;
+    color: white;
+}
