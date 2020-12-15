@@ -98,9 +98,25 @@ h1 {
 .title>p {
     text-align: center;
     color: white;
+    font-weight: bold;
 }
 
 iframe {
-            width: 300px;
-            height: 400px;
-        }
+    width: 300px;
+    height: 400px;
+}
+
+#up {
+    display:block;
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 64px;
+    height: 64px;
+    padding: 12px 10px 2px;
+    font-size: 16px;
+    opacity: 0.7;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}

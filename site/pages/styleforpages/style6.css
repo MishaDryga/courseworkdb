@@ -50,6 +50,7 @@ body {
     background-size: cover;
     width: 80%;
     height: 600px;
+    border-radius: 10px;
 }
 
 .second {
@@ -61,7 +62,7 @@ body {
     height: 310px;
 }
 .info {
-    background-color: #FCF8E3;
+    background-color: white;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     border-radius: 10px;
     padding: 20px;
@@ -99,4 +100,20 @@ h1 {
 .title>p {
     text-align: center;
     color: white;
+    font-weight: bold;
+}
+
+#up {
+    display:block;
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 64px;
+    height: 64px;
+    padding: 12px 10px 2px;
+    font-size: 16px;
+    opacity: 0.7;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }

@@ -66,7 +66,7 @@ nav {
 
 .menu {
     justify-content: space-around;
-    margin-left: 20%;
+    margin-left: 35%;
     position: relative;
 }
 
@@ -89,15 +89,12 @@ nav {
     -o-transition: 0.25s;
 }
 
-li.video:hover {
-    background-color: rgb(54, 54, 54);
-}
 
 .menu a {
     text-decoration: none;
     color: white;
     font-weight: 700;
-    font-size: 0.7rem;
+    font-size: 20px;
     white-space: nowrap;
 }
 
@@ -122,11 +119,12 @@ nav>ul {
 .menu li.dropdown:hover ul.dropdownmenu {
     position: absolute;
     z-index: 1000;
-    left: 20%;
+    left: 14%;
     display: block;
     background-color: white;
     border-radius: 5px;
 }
+
 
 .menu li.dropdown:hover ul.dropdownmenu a {
     color: black;
@@ -147,7 +145,7 @@ nav>ul {
 .menu li.dropdown1:hover ul.dropdownmenu1 {
     position: absolute;
     z-index: 1000;
-    left: 43%;
+    left: 37%;
     display: block;
     background-color: white;
     border-radius: 5px;
@@ -250,4 +248,19 @@ iframe {
 h2 {
     font-size: 200%;
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+#up {
+    display:block;
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 64px;
+    height: 64px;
+    padding: 12px 10px 2px;
+    font-size: 16px;
+    opacity: 0.7;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
